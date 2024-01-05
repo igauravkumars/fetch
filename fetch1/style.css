@@ -1,0 +1,42 @@
+#btn{
+    color: red;
+    cursor: pointer;
+    background-color: black;
+    height: 50px;
+    width:20%;
+    margin: auto;
+    display: block;
+}
+#wel{
+    text-align: center;
+}
+#read{
+    text-align: center;
+}
+
+#user-card{
+     display: flex;
+     flex-direction: row;
+     width: 90%;
+     height: 200px;
+     margin: auto;
+     margin-left: 65px;
+     
+     
+    
+}
+#user-card>#img{
+    border: 1px solid black;
+    padding: 15px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+/* <div class="user-card">
+<div id="img"><image src="${user.avatar}" alt="user-image"}</div>
+<div class="user-details">
+<p class="name">${user.first_name+" "+user.last_name}</p>
+</div>   
+<div>
+<p class="email">${user.email}</p></div>   
+</div> */
